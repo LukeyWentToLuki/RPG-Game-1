@@ -1,0 +1,54 @@
+#! /bin/bash
+
+
+sleep 2
+
+echo "Loading Script.... Please Wait."
+
+sleep 3
+
+echo "Game Loaded, Starting now."
+
+sleep 2
+
+echo "RPG GAME by Lucas, Start Game? (y/n)"
+
+read start
+
+if [[ $start == "y" ]]; then
+        echo "Starting Game... Please Wait"
+        sleep 4
+else
+        echo "Shutting Game Down"
+exit 1
+
+fi
+
+
+
+# First Beast Battle
+
+beast=$(( $RANDOM % 2 ))
+
+ echo "Right Out the blue, a Beast approaches you. Prepare to battle, pick a number between 0 and 1. Picking the rig>
+read tarnished
+if [[ $beast == $tarnished ]]; then
+        echo "Beast has been defeated. Congrats"
+else
+        echo "You died, restarting please wait."
+exit 1
+fi
+
+   sleep 3
+
+
+   echo "After Defeating the beast, another beast by the name of Margit Appears, defeat him. Pick A number between 0>    read tarnished
+    beast=$(( $RANDOM % 10 ))
+if [[ $beast == $tarnished ]]; then
+        echo "Beast has been destroyed, Congrats fellow soldier"
+else
+        echo "You died. Restarting please wait "
+        exit 1
+fi
+
+echo "Thanks for playing! Second Game: RPG Game 2: Freelander"
