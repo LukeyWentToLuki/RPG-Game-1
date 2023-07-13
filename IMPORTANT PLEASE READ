@@ -1,0 +1,25 @@
+Ok!
+
+
+So you want to play RPG GAME 1.
+
+(MIGHT REQUIRE MAKING 
+
+There are steps to it.
+
+First, install WSL or Windows Subsystem for Linux and ubuntu on windows store. If your on mac you don't need to do this.
+
+Then copy the code from gamefile.
+
+then do nano <your code file>
+
+then paste the code by right click.
+
+then do CTRL-X, Y, ENTER
+
+then do chmod +x <filename> (MAKE SURE FILE EXTENSION IS SH)
+then do ./<filename>
+
+then enjoy!
+
+second game: RPG Game 2
