@@ -1,5 +1,6 @@
 # RPG-Game-1
 RPG Game 1: Margit Power
+(PLEASE READ "IMPORTANT PLEASE READ" IT HAS INSTRUCTIONS FOR THOSE WHO DONT HAVE THE SUBSYSTEM)
 
 Game made in Bash using the Windows Subsystem for Linux
 
